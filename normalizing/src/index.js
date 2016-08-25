@@ -32,10 +32,10 @@ let render = () => {
          * This <App/> component only provides the site wrapper.
          * Remove it on your dev server if you wish. It will not affect the functionality.
          */
-        version="6.0.0-rc.5"
+        version="6.0.0"
         path="/examples/syncValidation"
         breadcrumbs={generateExampleBreadcrumbs('syncValidation',
-          'Field Normalizing Example', '6.0.0-rc.5')}>
+          'Field Normalizing Example', '6.0.0')}>
 
         <Markdown content={readme}/>
 
